@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        header{
+            background-color:lightgreen;
+            padding: 20px 30px;
+            width: 100%; 
+        }
+        header ul{
+            list-style-type:none;
+            display: flex;
+            justify-content: space-between;
+        }
+        main{
+            display:flex;
+            width: 100%; 
+        }
+        main ul{
+            list-style-type:none;
+            background-color: burlywood;
+            width:300px;
+            text-align: left;
+        }
+        .item{
+            min-width:1200px;
+            background-color: rgb(228, 135, 69);
+            padding:200px; 
+            padding-left: 500px;
+            padding-top:20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;
+            border-left: 1px solid black;
+            border-top: 1px solid black;
+        }
+        img{
+            width:300px;
+            margin-bottom: 20px;
+        }
+        .item1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        main li{
+         margin-bottom: 20px;
+         margin-top: 20px;
+        }
+        h2{
+            margin-top: 20px;
+            color: red;
+            margin-bottom: 20px;
+        }
+        .item h3{
+            color:blue
+        }      
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="http://127.0.0.1:5500/Project1/project2/Login_page.html" target="_blank">LOGIN</a></li>
+            <li><a href="http://127.0.0.1:5500/Project1/project2/Registerform.html" target="_blank">REGISTER</a></li>
+            <li><a href="http://127.0.0.1:5500/Project1/project2/Catalouge.html" target="_blank">CATALOGUE</a></li>
+        </ul>
+    </header>
+    <main>
+        <ul>
+            <li ><a href="http://127.0.0.1:5500/Project1/project2/CSE.html" target="_blank">CSE</a></li>
+            <li><a href="http://127.0.0.1:5500/Project1/project2/ECE.html" target="_blank">ECE</a></li>
+            <li ><a href="http://127.0.0.1:5500/Project1/project2/EEE.html" target="_blank">EEE</a></li>
+            <li><a href="http://127.0.0.1:5500/Project1/project2/MECH.html" target="_blank">MECH</a></li>
+        </ul>
+        <div class="item">
+            <img src="https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.webp?b=1&s=170667a&w=0&k=20&c=TRED57BZuROoCEP9kR85pW38PLz32onmM8106OoXeGQ=" class="image" alt="">
+            <h3>Welcome to the online Book store!!!</h3>
+            <h2 class="item1">"A Huge Collection Of Engineering E-Books"</h2>   
+        </div>
+    </main>
+</body>
+</html>
